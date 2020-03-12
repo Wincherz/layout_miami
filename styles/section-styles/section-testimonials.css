@@ -23,9 +23,15 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+    @media (max-width: 790px) {
+      .section-testimonials__container {
+        display: block; } }
   .section-testimonials__item {
     max-width: 240px;
     text-align: center; }
+    @media (max-width: 790px) {
+      .section-testimonials__item {
+        margin: 0 auto 48px; } }
   .section-testimonials__photo {
     margin-bottom: 28px;
     width: 153px;

@@ -7,6 +7,9 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+    @media (max-width: 790px) {
+      .section-contact__container {
+        display: block; } }
   .section-contact__left {
     max-width: 413px;
     display: grid;
@@ -14,6 +17,10 @@
     grid-template-rows: repeat(2, 74px);
     grid-template-columns: 261px 152px;
     gap: 20px; }
+    @media (max-width: 790px) {
+      .section-contact__left {
+        display: block;
+        margin-bottom: 32px; } }
   .section-contact__title {
     position: relative;
     font-size: 3rem;

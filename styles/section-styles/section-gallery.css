@@ -43,6 +43,10 @@
       margin-right: 20px; }
     .section-gallery__img--6 {
       width: calc(66.6% - 10px); }
+    @media (max-width: 790px) {
+      .section-gallery__img {
+        width: calc(50% - 10px);
+        height: 131px; } }
   .section-gallery__heading {
     margin-bottom: 40px;
     font-size: 1rem;
@@ -69,5 +73,8 @@
     .section-gallery__button:hover {
       background-color: #0075ff;
       color: #fff; }
+    @media (max-width: 790px) {
+      .section-gallery__button {
+        width: 100%; } }
 
 /*# sourceMappingURL=section-gallery.css.map */
