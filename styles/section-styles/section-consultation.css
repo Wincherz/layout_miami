@@ -14,7 +14,7 @@
     max-width: 413px; }
     @media (max-width: 790px) {
       .section-consultation__description {
-        margin-bottom: 32px; } }
+        margin: 0 auto 32px; } }
   .section-consultation__title {
     position: relative;
     font-size: 3rem;

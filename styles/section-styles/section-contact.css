@@ -20,7 +20,7 @@
     @media (max-width: 790px) {
       .section-contact__left {
         display: block;
-        margin-bottom: 32px; } }
+        margin: 0 auto 32px; } }
   .section-contact__title {
     position: relative;
     font-size: 3rem;

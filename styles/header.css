@@ -145,8 +145,6 @@
 
 .header-navbar__item {
   position: relative; }
-  .header-navbar__item:last-of-type {
-    margin-right: -24px; }
   @media (max-width: 790px) {
     .header-navbar__item {
       margin-bottom: 32px; } }

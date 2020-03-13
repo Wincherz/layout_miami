@@ -102,5 +102,8 @@
     .form__button:hover {
       background-color: #fff;
       color: #0075ff; }
+  @media (max-width: 790px) {
+    .form {
+      margin: 0 auto; } }
 
 /*# sourceMappingURL=form.css.map */

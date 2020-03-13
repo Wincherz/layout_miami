@@ -155,8 +155,6 @@ h1 {
 
 .header-navbar__item {
   position: relative; }
-  .header-navbar__item:last-of-type {
-    margin-right: -24px; }
   @media (max-width: 790px) {
     .header-navbar__item {
       margin-bottom: 32px; } }
@@ -302,6 +300,9 @@ h1 {
     .form__button:hover {
       background-color: #fff;
       color: #0075ff; }
+  @media (max-width: 790px) {
+    .form {
+      margin: 0 auto; } }
 
 .section-description {
   margin: 103px auto 152px;
@@ -425,7 +426,7 @@ h1 {
     .section-gallery__button:focus {
       -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
               box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
-    @media (max-width: 790px) {
+    @media (max-width: 400px) {
       .section-gallery__button {
         width: 100%; } }
 
@@ -445,7 +446,7 @@ h1 {
     max-width: 413px; }
     @media (max-width: 790px) {
       .section-consultation__description {
-        margin-bottom: 32px; } }
+        margin: 0 auto 32px; } }
   .section-consultation__title {
     position: relative;
     font-size: 3rem;
@@ -554,7 +555,7 @@ h1 {
     @media (max-width: 790px) {
       .section-contact__left {
         display: block;
-        margin-bottom: 32px; } }
+        margin: 0 auto 32px; } }
   .section-contact__title {
     position: relative;
     font-size: 3rem;
@@ -594,6 +595,9 @@ h1 {
   max-width: 1020px;
   padding: 0 20px;
   overflow: hidden; }
+  @media screen and (max-width: 790px) {
+    .sections {
+      max-width: 540px; } }
 
 .footer {
   position: relative;
