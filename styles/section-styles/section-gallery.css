@@ -59,6 +59,7 @@
     display: block;
     width: 188px;
     height: 56px;
+    outline: none;
     margin: 0 auto;
     text-align: center;
     color: #0075ff;
@@ -73,6 +74,9 @@
     .section-gallery__button:hover {
       background-color: #0075ff;
       color: #fff; }
+    .section-gallery__button:focus {
+      -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+              box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
     @media (max-width: 790px) {
       .section-gallery__button {
         width: 100%; } }

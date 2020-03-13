@@ -13,5 +13,7 @@
     bottom: 40px;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%); }
+  .footer__link:focus {
+    outline: 1px dotted red; }
 
 /*# sourceMappingURL=footer.css.map */

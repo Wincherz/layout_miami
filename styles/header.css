@@ -46,12 +46,17 @@
   .header-upper__tel {
     padding-bottom: 8px;
     -webkit-transition: color 0.3s linear;
-    transition: color 0.3s linear; }
+    transition: color 0.3s linear;
+    outline: none; }
     .header-upper__tel:hover {
       color: #9fadc2; }
     @media (max-width: 790px) {
       .header-upper__tel {
         display: none; } }
+    .header-upper__tel:focus {
+      outline: 1px dotted red; }
+  .header-upper__link:focus {
+    outline: 1px dotted red; }
   .header-upper__telephone {
     display: none; }
     @media (max-width: 790px) {
@@ -75,6 +80,8 @@
         display: none;
         bottom: 0;
         left: 0; } }
+    .header-upper__call:focus {
+      outline: 1px dotted red; }
     .header-upper__call::after {
       position: absolute;
       content: "";
@@ -152,6 +159,8 @@
   letter-spacing: 2px;
   -webkit-transition: color 0.3s linear;
   transition: color 0.3s linear; }
+  .header-navbar__link:focus {
+    outline: 1px dotted red; }
   .header-navbar__link:hover {
     color: #9fadc2; }
   .header-navbar__link.active {
